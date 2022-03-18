@@ -1,4 +1,6 @@
 import random
 
 # https://stackoverflow.com/a/6494519/185820
-print(random.sample(range(1, 16), 3))
+
+attendees = open("attendees.txt").read()
+print(random.sample(attendees, 3))
