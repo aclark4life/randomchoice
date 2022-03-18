@@ -1,0 +1,2 @@
+winner:
+	python randomchoice.py
