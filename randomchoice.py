@@ -1,8 +1,7 @@
 import random
 import time
 
-attendees = open("attendees3.txt").read()
-attendees = attendees.split()
+attendees = open("attendees3.txt").read().split()
 
 # https://stackoverflow.com/a/6494519/185820
 winners = random.sample(attendees, 3)
