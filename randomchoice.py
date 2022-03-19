@@ -14,9 +14,8 @@ winners = random.sample(attendees, 2)
 # print(winners)
 
 for winner in winners:
-    time.sleep(1)
-    print("\n")
-    bar.next()
+    # bar.next()
     print("%s!\n" % winner)
+    time.sleep(1)
 
 bar.finish
