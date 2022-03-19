@@ -1,7 +1,7 @@
 import random
 import time
-from progress.bar import Bar
 
+from progress.bar import Bar
 
 bar = Bar("Processing", max=3)
 
