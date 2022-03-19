@@ -9,13 +9,13 @@ attendees = open("attendees3.txt").read()
 attendees = attendees.split("\n")
 
 # https://stackoverflow.com/a/6494519/185820
-winners = random.sample(attendees, 2)
+winners = random.sample(attendees, 3)
 
-# print(winners)
+print(winners)
 
-for winner in winners:
-    # bar.next()
-    print("%s!\n" % winner)
-    time.sleep(1)
+# for winner in winners:
+#     # bar.next()
+#     print("Winner: %s!\n" % winner)
+#     time.sleep(1)
 
 bar.finish
