@@ -8,5 +8,5 @@ winners = random.sample(attendees, 1)
 
 # Add suspense
 for winner in winners:
-    print("Winner: %s!\n" % winner)
     time.sleep(2)
+    print("Winner: %s!\n" % winner)
